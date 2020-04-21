@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/outspoken/static/css/main.583cf1a7.chunk.css",
-    "main.js": "/outspoken/static/js/main.67c99eea.chunk.js",
-    "main.js.map": "/outspoken/static/js/main.67c99eea.chunk.js.map",
+    "main.js": "/outspoken/static/js/main.9ff6fd86.chunk.js",
+    "main.js.map": "/outspoken/static/js/main.9ff6fd86.chunk.js.map",
     "runtime-main.js": "/outspoken/static/js/runtime-main.2fb74bb6.js",
     "runtime-main.js.map": "/outspoken/static/js/runtime-main.2fb74bb6.js.map",
     "static/js/2.1ca86cdb.chunk.js": "/outspoken/static/js/2.1ca86cdb.chunk.js",
     "static/js/2.1ca86cdb.chunk.js.map": "/outspoken/static/js/2.1ca86cdb.chunk.js.map",
     "index.html": "/outspoken/index.html",
-    "precache-manifest.d153c85334335d7b6990c43e475dc156.js": "/outspoken/precache-manifest.d153c85334335d7b6990c43e475dc156.js",
+    "precache-manifest.45efc1a9f7579114f13c5ad348f18d53.js": "/outspoken/precache-manifest.45efc1a9f7579114f13c5ad348f18d53.js",
     "service-worker.js": "/outspoken/service-worker.js",
     "static/css/main.583cf1a7.chunk.css.map": "/outspoken/static/css/main.583cf1a7.chunk.css.map",
     "static/js/2.1ca86cdb.chunk.js.LICENSE.txt": "/outspoken/static/js/2.1ca86cdb.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.2fb74bb6.js",
     "static/js/2.1ca86cdb.chunk.js",
     "static/css/main.583cf1a7.chunk.css",
-    "static/js/main.67c99eea.chunk.js"
+    "static/js/main.9ff6fd86.chunk.js"
   ]
 }
