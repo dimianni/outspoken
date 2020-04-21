@@ -145,7 +145,7 @@ class Quote extends Component {
                                     <Link to={`/quote/` + i.id} key={i.imgPath}>
                                         <div className={styles.SliderItem}>
                                             <div className={styles.imgContainer}>
-                                                <img src={`../images/${i.imgPath}.jpg`} alt={i.by} />
+                                                <img src={`images/${i.imgPath}.jpg`} alt={i.by} />
                                             </div>
                                             <p className={styles.SubName}>{i.by}</p>
                                         </div>
@@ -186,7 +186,7 @@ class Quote extends Component {
                     </Link>
 
                     <div className={styles.SpeakerPictureCont}>
-                        <img alt="speaker" src={`../images/${this.state.clickedQuote.imgPath}.jpg`} className={styles.SpeakerPicture} />
+                        <img alt="speaker" src={`images/${this.state.clickedQuote.imgPath}.jpg`} className={styles.SpeakerPicture} />
                     </div>
 
                     <p className={styles.QuoteStyle}>«{this.state.clickedQuote.quote}»</p>
