@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/outspoken/static/css/main.583cf1a7.chunk.css",
+    "main.js": "/outspoken/static/js/main.c157a2cb.chunk.js",
+    "main.js.map": "/outspoken/static/js/main.c157a2cb.chunk.js.map",
+    "runtime-main.js": "/outspoken/static/js/runtime-main.2fb74bb6.js",
+    "runtime-main.js.map": "/outspoken/static/js/runtime-main.2fb74bb6.js.map",
+    "static/js/2.1ca86cdb.chunk.js": "/outspoken/static/js/2.1ca86cdb.chunk.js",
+    "static/js/2.1ca86cdb.chunk.js.map": "/outspoken/static/js/2.1ca86cdb.chunk.js.map",
+    "index.html": "/outspoken/index.html",
+    "precache-manifest.e14e739a454a4de7d82a9fe34a9553a4.js": "/outspoken/precache-manifest.e14e739a454a4de7d82a9fe34a9553a4.js",
+    "service-worker.js": "/outspoken/service-worker.js",
+    "static/css/main.583cf1a7.chunk.css.map": "/outspoken/static/css/main.583cf1a7.chunk.css.map",
+    "static/js/2.1ca86cdb.chunk.js.LICENSE.txt": "/outspoken/static/js/2.1ca86cdb.chunk.js.LICENSE.txt",
+    "static/media/Header.module.css": "/outspoken/static/media/Demo.70635d72.ttf",
+    "static/media/Outspoken.svg": "/outspoken/static/media/Outspoken.56189675.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fb74bb6.js",
+    "static/js/2.1ca86cdb.chunk.js",
+    "static/css/main.583cf1a7.chunk.css",
+    "static/js/main.c157a2cb.chunk.js"
+  ]
+}
