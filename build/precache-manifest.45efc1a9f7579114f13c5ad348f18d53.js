@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2d7d8b1d4ace66b33923f6105c12325",
+    "revision": "dd1fe6434a46ef6ecea7ed10867b2536",
     "url": "/outspoken/index.html"
   },
   {
-    "revision": "f42b37cc267c51a39f17",
+    "revision": "876abd5aa495c28c65c4",
     "url": "/outspoken/static/css/main.583cf1a7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/outspoken/static/js/2.1ca86cdb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f42b37cc267c51a39f17",
-    "url": "/outspoken/static/js/main.67c99eea.chunk.js"
+    "revision": "876abd5aa495c28c65c4",
+    "url": "/outspoken/static/js/main.9ff6fd86.chunk.js"
   },
   {
     "revision": "1f6ef14027a622e06590",
