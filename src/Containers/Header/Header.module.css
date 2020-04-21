@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "DEMO";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DEMO"), url("Demo.ttf") format("truetype");
+}
+
+.Header {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin-bottom: 30px;
+}
+
+.Wrapper {
+  width: 60%;
+  min-height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  width: 200px;
+  height: auto;
+}
+
+.Abc {
+  color: #444545;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Links a {
+  font-size: 22px;
+  color: #444545;
+  text-decoration: none;
+}
+ion-icon {
+  margin-left: 8px;
+}
+@media (max-width: 1440px) {
+  .Wrapper {
+    width: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  .Logo {
+    width: 170px;
+    height: auto;
+  }
+  .Abc {
+    font-size: 16px;
+  }
+  .Links {
+    font-size: 20px;
+    color: #444545;
+  }
+}
+@media (max-width: 560px) {
+  .Wrapper {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .Logo {
+    width: 130px;
+    height: auto;
+  }
+  .Abc {
+    font-size: 14px;
+  }
+  .Links a {
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .Logo {
+    width: 110px;
+    height: auto;
+  }
+  .Abc {
+    font-size: 13px;
+  }
+}

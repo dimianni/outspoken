@@ -1,0 +1,45 @@
+.quoteCard{
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    position: relative;
+    cursor: pointer;
+}
+.cardImg{
+    width: 100%;
+    height: auto;
+}
+
+.hover{
+    height: 100%;
+    width: 100%;
+    background: rgba(48, 48, 48, 0.7);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+.hover:hover{
+    opacity: 1;
+}
+.hoverName{
+    position: absolute;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1200px){
+    .hoverName{
+        font-size: 16px;
+    }
+    
+}

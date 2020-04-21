@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "DEMO";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DEMO"), url("../Header/Demo.ttf") format("truetype");
+}
+.Wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.Alphabet {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.Letter {
+  color: #737272;
+  text-decoration: none;
+  font-size: 26px;
+  padding: 15px;
+}
+
+.Columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Col {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.TitleLetter {
+  font-family: "DEMO", sans-serif;
+  font-size: 52px;
+  color: #737272;
+  padding: 20px 0;
+}
+
+.Name {
+  color: #444545;
+  font-size: 26px;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+}
+
+.LetterList {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1400px) {
+  .Wrapper {
+    width: 70%;
+  }
+  .Alphabet {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1015px) {
+  .Wrapper {
+    width: 90%;
+  }
+  .Alphabet {
+    width: 70%;
+    padding: 30px 0;
+  }
+  .Letter {
+    font-size: 22px;
+  }
+  .TitleLetter {
+    font-size: 46px;
+  }
+  .Name {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 750px) {
+  .Wrapper {
+    width: 100%;
+  }
+  .Alphabet {
+    width: 80%;
+  }
+  .Letter {
+    font-size: 20px;
+  }
+  .TitleLetter {
+    font-size: 38px;
+  }
+  .Name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Alphabet {
+    width: 90%;
+    padding: 20px 0;
+  }
+  .Columns {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Col {
+    width: 100%;
+  }
+}
+@media (max-width: 500px){
+    .Alphabet {
+    width: 100%;
+    padding: 0px 0;
+  }
+}

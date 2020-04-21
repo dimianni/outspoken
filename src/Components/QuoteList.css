@@ -1,0 +1,16 @@
+.quoteList{
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.quoteListIndivid{
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width: 780px){
+    .quoteList{
+        flex-direction: column;
+    }
+    
+}

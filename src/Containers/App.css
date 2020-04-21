@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  outline: none;
+}
+
+.App {
+  text-align: center;
+}
+.appCont {
+  position: relative;
+  min-height: 100vh;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.copyButton {
+  width: 150px;
+  background: #38464d;
+  border-radius: 25px;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: #fff;
+  padding: 9px;
+  transition: all 0.2s;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.copyButton:active {
+  transform: scale(0.8, 0.8);
+  background: rgba(20, 185, 75, 0.568);
+}
+
+.copyButton.clicked {
+  background: rgba(20, 185, 75, 0.568);
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

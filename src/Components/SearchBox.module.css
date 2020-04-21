@@ -1,0 +1,77 @@
+.Search {
+  position: relative;
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  background: #38464d;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 20px 0;
+}
+
+.Bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 18px;
+  border-radius: 20px;
+  color: #fff;
+  padding: 0 20px;
+  background-color: rgba(255, 255, 255, 0.575);
+}
+.Loop {
+  padding: 10px;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  transition: all 1s;
+  margin: 0;
+}
+
+.Search:hover {
+  width: 200px;
+  cursor: pointer;
+}
+.Search:hover .Loop {
+  right: 0;
+  left: auto;
+  transform: translateY(-50%);
+}
+
+.Search:hover input {
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .Search {
+    width: 40px;
+    height: 40px;
+  }
+
+  .Bar {
+    font-size: 18px;
+  }
+  .Loop {
+    font-size: 26px;
+  }
+
+  .Search:hover {
+    width: 200px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 560px) {
+  .Bar {
+    font-size: 16px;
+  }
+}

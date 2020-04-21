@@ -1,0 +1,199 @@
+.Quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.Name {
+  font-size: 36px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #444545;
+  margin-top: 0;
+}
+
+.Tag {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #444545;
+  margin-bottom: 20px;
+}
+
+.Tag p {
+  padding-left: 5px;
+  margin: 0;
+}
+
+.imgContainer {
+  width: 200px !important;
+  height: 200px;
+  transition: all 0.5s;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.imgContainer:hover {
+  opacity: 0.7;
+}
+
+.sliderContainer .slick-list {
+  min-height: 150px;
+}
+
+.Social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SocialLink {
+  padding: 5px;
+}
+
+.SpeakerPictureCont {
+  max-width: 500px;
+  max-height: 500px;
+  overflow: hidden;
+}
+.SpeakerPicture {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.QuoteStyle {
+  max-width: 500px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #444545;
+  margin-bottom: 20px;
+  /* padding-top: 50px; */
+}
+
+.Finger ion-icon {
+  font-size: 26px;
+}
+
+.Slider {
+  padding-bottom: 100px;
+}
+
+.SliderItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.SubName {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #444545;
+  font-weight: 400;
+  text-align: center;
+}
+
+.MoreQ {
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #444545;
+  margin-bottom: 10px;
+}
+
+/* .Dots{
+  height: 10px;
+  width: 10px;
+  background-color: red;
+} */
+
+@media (max-width: 1440px) {
+  .mainContainer {
+    width: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  .mainContainer {
+    width: 90%;
+  }
+}
+@media (max-width: 1000px) {
+  .mainContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .mainContainer {
+    width: 100%;
+  }
+  .Name {
+    font-size: 28px;
+  }
+  .Tag {
+    font-size: 13px;
+  }
+  .imgContainer {
+    width: 150px !important;
+    height: 150px;
+  }
+  .QuoteStyle {
+    font-size: 22px;
+  }
+  .MoreQ {
+    font-size: 22px;
+  }
+  .SliderItem {
+    padding: 10px;
+  }
+  .SubName {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 525px) {
+  .Name {
+    font-size: 24px;
+  }
+  .imgContainer {
+    width: 150px !important;
+    height: 150px;
+    padding: 15px;
+  }
+  .QuoteStyle {
+    font-size: 20px;
+  }
+  .MoreQ {
+    font-size: 20px;
+  }
+}
+@media (max-width: 375px){
+  .Name {
+    font-size: 20px;
+  }
+  .QuoteStyle {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .MoreQ {
+    font-size: 18px;
+  }
+}
