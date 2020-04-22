@@ -8,7 +8,7 @@ const Footer = () => {
                 Built with <span role="img" alt="love" aria-label="">&#10084;&#65039;</span> 
             </div>
             <div>
-                © 2020 by <a href="http://dimianni.biz/">Dimianni</a>.
+                © 2020 by <a href="https://dimianni.github.io/">Dimianni</a>.
             </div>
         </footer>
      );
